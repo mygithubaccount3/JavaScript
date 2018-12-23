@@ -6,9 +6,9 @@
     }
     for(let i = 0; i < listOfArt.length; ++i) {
       if (listOfCat.indexOf(listOfArt[i].charAt(0)) !== -1) {
-      		result[listOfArt[i].charAt(0)] += Number(listOfArt[i].match(/\d+/g));   
+      		result[listOfArt[i].charAt(0)] += Number(listOfArt[i].match(/\d+/));   
       }
     }
     return Object.keys(result).map(key => `(${key} : ${result[key]})`).join(" - ");
-  }) (["ROXANNE 102", "RHODODE 123", "BKWRKAA 125", "BTSQZFG 239", "DRTYMKH 060"], ["B", "R", "D", "X"]);
+  }) (["EVERY NOTE PLAYED 102", "WASHINGTON BLACK: A NOVEL 123", "WOMEN TALKING: A NOVEL 125", "THE LIGHTKEEPER'S DAUGHTERS: A NOVEL 239", "US AGAINST YOU 060"], ["B", "R", "D", "X"]);
   
