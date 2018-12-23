@@ -10,5 +10,5 @@
       }
     }
     return Object.keys(result).map(key => `(${key} : ${result[key]})`).join(" - ");
-  }) (["EVERY NOTE PLAYED 102", "WASHINGTON BLACK: A NOVEL 123", "WOMEN TALKING: A NOVEL 125", "THE LIGHTKEEPER'S DAUGHTERS: A NOVEL 239", "US AGAINST YOU 060"], ["B", "R", "D", "X"]);
+  }) (["EVERY NOTE PLAYED 102", "WASHINGTON BLACK: A NOVEL 123", "WOMEN TALKING: A NOVEL 125", "THE LIGHTKEEPER'S DAUGHTERS: A NOVEL 239", "US AGAINST YOU 060"], ["U", "E", "X", "W"]);
   
